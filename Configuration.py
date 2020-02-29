@@ -24,7 +24,7 @@ CONT_VAR = ['MonthlyRevenue','MonthlyMinutes','TotalRecurringCharge','DirectorAs
                        ]
 
 SIMILARITY_THRESHOLD = 15
-NUMBER_OF_ROWS=5
+NUMBER_OF_ROWS=20
 
 
 FEATURE_LIST = ['MaritalStatus', 'Occupation']
