@@ -2,7 +2,7 @@
 TRAIN_DATAFILE_PATH = 'Data/cell2celltrain.csv'
 DEPENDENT_VAR = 'Churn'
 PROCESSED_FILE_PATH = 'Data/Train.csv'
-TRAINING_EPOCHS = 2000
+TRAINING_EPOCHS = 100
 LEARNING_RATE = 0.001
 COSINE_SIMILARITY_MODEl = 'Models/CosineSimilarityModel.torch'
 
