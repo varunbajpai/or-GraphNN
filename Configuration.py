@@ -4,6 +4,7 @@ DEPENDENT_VAR = 'Churn'
 PROCESSED_FILE_PATH = 'Data/Train.csv'
 TRAINING_EPOCHS = 2000
 LEARNING_RATE = 0.001
+COSINE_SIMILARITY_MODEl = 'Models/CosineSimilarityModel.torch'
 
 CAT_VAR = ['ServiceArea','ChildrenInHH','HandsetRefurbished','HandsetWebCapable','TruckOwner',
                         'RVOwner','Homeownership','BuysViaMailOrder','RespondsToMailOffers','OptOutMailings',
@@ -23,3 +24,4 @@ CONT_VAR = ['MonthlyRevenue','MonthlyMinutes','TotalRecurringCharge','DirectorAs
                        ]
 
 SIMILARITY_THRESHOLD = 15
+NUMBER_OF_ROWS=5
