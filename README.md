@@ -20,16 +20,21 @@ Files
 
 Best Model:
     Models were tried with 
+    
         A) Graph Neural network
+        
             a) Cosine Similarity Model : Better model in Graph Neural Network
+            
             b) Feature Similarity Model : Not so good as features are taken indivudially (Graph was built using specific features)
             
     
     AutoGluon Models:
+    
         Multiple Models are created in AutoGluon for tabular Data
         
         
 Average Accuraccy by all classifiers including Graph Neural Network: 74%
+
 
 PCA : PCA was applied to Continuous but the results with PCA were not good as compared with full dataset, Hence PCA is implementetd but not used, In order to use PCA we need to import the file and pass processed DataFrame into get_columns_from_pca function  
 
