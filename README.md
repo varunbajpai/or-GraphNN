@@ -40,17 +40,18 @@ PCA : PCA was applied to Continuous but the results with PCA were not good as co
 
 Graph Building Complexity : O(n^2) as every node needs to be mapped with every other node
 
-Running the Files:
-Files can be run individually.
 
+
+Running the Files: Files can be run individually.
 For Training based on Cosine Similarity (Recommended):
 Run the File: CosineSimilarity-Train_File.ipynb 
+
 
 For Training based on Feature Similarity (Recommended):
 Add the fields to the feature list in the Configuration.py file in the list named : FEATURE_LIST
 Run the File: CosineSimilarity-Train_File.ipynb 
 
+
 For Predicting the results: 
 Run the File: Predict.ipynb
-
 Sample Predictions along with sample dataframe is shown in the file
